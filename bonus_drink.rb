@@ -17,7 +17,3 @@ class BonusDrink
     return total_bottle + full_bottle_remain
   end
 end
-
-for i in 1..100 do
-  puts BonusDrink.total_count_for(i)
-end
